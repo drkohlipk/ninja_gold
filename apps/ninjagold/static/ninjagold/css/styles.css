@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+main {
+	width: 95%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+h1 {
+	display: inline-block;
+	vertical-align: top;
+	width: 89%;
+}
+
+#reset {
+	width: 7em;
+	display: inline-block;
+	vertical-align: top;
+	background: linear-gradient(white, gray);
+}
+
+.place {
+	display: inline-block;
+	width: 23%;
+	height: 200px;
+	margin: 20px 10px;
+	border: 1px solid gray;
+	box-shadow: 1px 1px 5px gray;
+	text-align: center;
+}
+
+.place h2, .place p {
+	margin: 30px 0;
+}
+
+a {
+	text-align: center;
+	display: inline-block;
+	width: 5.5em;
+	height: 2em;
+	padding: 8px 0;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	background: linear-gradient(white, gold 25%);
+	border-radius: 5px;
+}
+
+a:hover {
+	cursor: pointer;
+	box-shadow: 1px 1px 3px gray;
+}
+
+#actbox {
+	height: 400px;
+	margin: 20px 10px;
+	padding: 20px;
+	overflow-y: scroll;
+	border: 1px solid gray;
+	box-shadow: 1px 1px 5px gray;
+}
+
+#actbox p {
+	margin: 5px 0;
+}
+
+#actbox > p > span {
+	margin-left: 15px;
+}
